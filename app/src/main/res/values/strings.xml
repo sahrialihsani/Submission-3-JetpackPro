@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Submission-2-JetpackPro</string>
+    <string name="namaapplikasi">WatchMovieTV</string>
+    <string name="ver">V.2.0</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="vote">1</string>
+    <string name="des">Overview</string>
+    <string name="favorite">Favorite</string>
+    <string name="nofav">No Favorite here</string>
+    <string name="addFav">is Success Added to Favorite</string>
+    <string name="rmvFav">is Success Removed from Favorite</string>
+    <string name="tabmovie">Movie</string>
+    <string name="tabtv">Tv Show</string>
+    <string name="nointernet">Check your Network!</string>
+</resources>

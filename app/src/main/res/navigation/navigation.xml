@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_movie">
+
+    <fragment
+        android:id="@+id/nav_movie"
+        android:name="com.sahrial.submission_3_jetpackpro.ui.fragment.movie.FragmentMovies"
+        android:label="@string/tabmovie"
+        tools:layout="@layout/fragment_movies" />
+    <fragment
+        android:id="@+id/nav_tv"
+        android:name="com.sahrial.submission_3_jetpackpro.ui.fragment.tv.FragmentTv"
+        android:label="@string/tabtv"
+        tools:layout="@layout/fragment_tv" />
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.sahrial.submission_3_jetpackpro.ui.fragment.favorite.FragmentFavorite"
+        android:label="@string/favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/nav_fav_movie"
+        android:name="com.sahrial.submission_3_jetpackpro.ui.fragment.favorite.favmovie.FragmentFavMovie"
+        android:label="fragment_favorite_movie"
+        tools:layout="@layout/fragment_fav_movie" />
+    <fragment
+        android:id="@+id/nav_fav_tv"
+        android:name="com.sahrial.submission_3_jetpackpro.ui.fragment.favorite.favtv.FragmentFavTv"
+        android:label="fragment_favorite_tv"
+        tools:layout="@layout/fragment_fav_tv" />
+
+</navigation>
